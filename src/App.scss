@@ -1,0 +1,7 @@
+$dark-red: #4b0e20;
+$light-red: #8e2036;
+
+.section-1 {
+  background: linear-gradient(180deg, $dark-red, $light-red, $dark-red);
+  height: 70rem;
+}

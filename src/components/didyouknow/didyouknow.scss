@@ -1,0 +1,59 @@
+$rodo-red: #c04355;
+
+.didyouknow {
+  .didyouknow__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: "Caveat Brush", cursive;
+      font-size: 3rem;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+      color: $rodo-red;
+      margin: 0.7rem 0rem;
+    }
+    h4 {
+      color: $rodo-red;
+      margin: 0.7rem 0rem;
+      font-size: 1.3rem;
+    }
+  }
+  .didyouknow__ingredients {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+    .didyouknow__card {
+      display: flex;
+    }
+    .caption {
+      color: $rodo-red;
+      position: absolute;
+      top: 65%;
+      transform: rotate(-90deg);
+      transform-origin: left top 0;
+
+      &::before,
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 50%;
+        margin: 0 0.5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 2px solid;
+      }
+      &::after {
+        margin: 0 -55% 0 0.5em;
+      }
+    }
+  }
+}
+
+.card {
+  width: 12rem;
+  height: 20rem;
+  background: pink;
+  margin: 2rem;
+}
