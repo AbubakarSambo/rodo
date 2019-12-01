@@ -4,6 +4,8 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import Benefits from "./components/benefits";
 import Didyouknow from "./components/didyouknow";
+import Howto from "./components/howto";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       </div>
       <Benefits />
       <Didyouknow />
+      <Howto />
+      <Contact />
     </>
   );
 }

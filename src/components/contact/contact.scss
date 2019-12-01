@@ -1,0 +1,39 @@
+$rodo-red: #c04355;
+
+.contact {
+  display: flex;
+  padding: 2rem;
+  .col1 {
+    padding: 5rem;
+    width: 100%;
+    min-height: 40rem;
+    background-image: url("../../assets/thank-you-bg.png");
+    box-shadow: inset 0 0 0 1000px rgba(195, 68, 86, 0.8);
+    h2 {
+      font-family: "Caveat Brush", cursive;
+      font-size: 3rem;
+      color: white;
+      border-bottom: 1px solid white;
+      padding-bottom: 2rem;
+      text-transform: uppercase;
+    }
+    p {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 400;
+      .letter {
+        display: block;
+      }
+    }
+  }
+  .col2 {
+    width: 100%;
+    padding: 5rem;
+    h3 {
+      font-family: "Caveat Brush", cursive;
+      color: $rodo-red;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+  }
+}

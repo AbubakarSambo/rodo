@@ -1,6 +1,7 @@
 $rodo-red: #c04355;
 
 .didyouknow {
+  margin-bottom: 3em;
   .didyouknow__header {
     display: flex;
     align-items: center;
@@ -27,11 +28,14 @@ $rodo-red: #c04355;
 
     .didyouknow__card {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .caption {
       color: $rodo-red;
       position: absolute;
       top: 65%;
+      left: 10%;
       transform: rotate(-90deg);
       transform-origin: left top 0;
 
@@ -52,8 +56,15 @@ $rodo-red: #c04355;
 }
 
 .card {
-  width: 12rem;
-  height: 20rem;
-  background: pink;
+  width: 14rem;
+  height: 18rem;
   margin: 2rem;
+  text-align: center;
+  h2 {
+    font-family: "Caveat Brush", cursive;
+    color: $rodo-red;
+  }
+  p {
+    color: #868e96;
+  }
 }
