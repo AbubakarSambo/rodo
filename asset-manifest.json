@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rodo/static/css/main.c115a361.chunk.css",
+    "main.js": "/rodo/static/js/main.a582d48a.chunk.js",
+    "main.js.map": "/rodo/static/js/main.a582d48a.chunk.js.map",
+    "runtime-main.js": "/rodo/static/js/runtime-main.a6d79c89.js",
+    "runtime-main.js.map": "/rodo/static/js/runtime-main.a6d79c89.js.map",
+    "static/js/2.3ad142bd.chunk.js": "/rodo/static/js/2.3ad142bd.chunk.js",
+    "static/js/2.3ad142bd.chunk.js.map": "/rodo/static/js/2.3ad142bd.chunk.js.map",
+    "index.html": "/rodo/index.html",
+    "precache-manifest.fb671f41a186159f4f136e550b83e8ac.js": "/rodo/precache-manifest.fb671f41a186159f4f136e550b83e8ac.js",
+    "service-worker.js": "/rodo/service-worker.js",
+    "static/css/main.c115a361.chunk.css.map": "/rodo/static/css/main.c115a361.chunk.css.map",
+    "static/media/benefits.png": "/rodo/static/media/benefits.f68422dc.png",
+    "static/media/cloves.png": "/rodo/static/media/cloves.fd193058.png",
+    "static/media/cold-cup.png": "/rodo/static/media/cold-cup.95f3881f.png",
+    "static/media/ginger.png": "/rodo/static/media/ginger.835e9bea.png",
+    "static/media/hibiscus.png": "/rodo/static/media/hibiscus.e739ba0f.png",
+    "static/media/hot-cup.png": "/rodo/static/media/hot-cup.6e0103e3.png",
+    "static/media/mint.png": "/rodo/static/media/mint.4490f52a.png",
+    "static/media/pack.png": "/rodo/static/media/pack.9f6a1ca8.png",
+    "static/media/rodo.png": "/rodo/static/media/rodo.98c807d7.png",
+    "static/media/contact.scss": "/rodo/static/media/thank-you-bg.b44c09f7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6d79c89.js",
+    "static/js/2.3ad142bd.chunk.js",
+    "static/css/main.c115a361.chunk.css",
+    "static/js/main.a582d48a.chunk.js"
+  ]
+}
