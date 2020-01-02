@@ -1,4 +1,42 @@
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 1075px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+$white: #ffff;
 $rodo-red: #c04355;
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
 
 .howto {
   display: flex;
@@ -13,6 +51,9 @@ $rodo-red: #c04355;
     text-transform: uppercase;
     color: $rodo-red;
     margin: 0.7rem 0rem;
+    @include sm {
+      font-size: 2rem;
+    }
   }
   .cols {
     display: flex;

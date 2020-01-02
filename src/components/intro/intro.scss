@@ -47,7 +47,7 @@ $rodo-red: #c04355;
       max-width: 20rem;
       height: auto;
       @include sm {
-        max-width: 12rem;
+        max-width: 8rem;
       }
     }
     .text {
@@ -88,10 +88,19 @@ $rodo-red: #c04355;
       font-size: 1.1rem;
       line-height: 1.5;
     }
+    .line_1 {
+      font-size: 2.2rem;
+      @include sm {
+        font-size: 1rem;
+      }
+    }
     .line_2 {
       font-size: 4.5rem;
       @include md {
         font-size: 2.5rem;
+      }
+      @include sm {
+        font-size: 1.5rem;
       }
     }
     .line_3 {
@@ -100,6 +109,9 @@ $rodo-red: #c04355;
       text-transform: uppercase;
       @include md {
         font-size: 3.5rem;
+      }
+      @include sm {
+        font-size: 1.5rem;
       }
     }
   }

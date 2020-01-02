@@ -4,7 +4,7 @@ import benefits from "../../assets/benefits.png";
 
 const Benefits = () => {
   return (
-    <div className="benefits">
+    <div id="Benefits" className="benefits">
       <div className="description">
         <div className="caption text">BENEFITS</div>
         <span className="heading">benefits</span>

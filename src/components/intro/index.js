@@ -7,7 +7,7 @@ import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
 const Intro = () => {
   return (
     <>
-      <div className="intro">
+      <div id="Home" className="intro">
         <div className="imageContainer">
           <div className="caption text">MAIN</div>
           <img alt="rodo logo" src={pack} />

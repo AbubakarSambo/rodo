@@ -1,6 +1,5 @@
 import React from "react";
 import "./didyouknow.scss";
-import hibiscus from "../../assets/hibiscus.png";
 
 const Card = ({ image, text }) => {
   return (

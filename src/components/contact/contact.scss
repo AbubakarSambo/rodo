@@ -1,4 +1,41 @@
 $rodo-red: #c04355;
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 1075px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
 
 .contact {
   display: flex;
@@ -16,6 +53,9 @@ $rodo-red: #c04355;
       border-bottom: 1px solid white;
       padding-bottom: 2rem;
       text-transform: uppercase;
+      @include sm {
+        font-size: 1.5rem;
+      }
     }
     p {
       color: white;
@@ -24,6 +64,12 @@ $rodo-red: #c04355;
       .letter {
         display: block;
       }
+      @include sm {
+        font-size: 1rem;
+      }
+    }
+    @include sm {
+      padding: 1rem;
     }
   }
   .col2 {
@@ -34,6 +80,22 @@ $rodo-red: #c04355;
       color: $rodo-red;
       font-size: 3rem;
       text-transform: uppercase;
+      @include sm {
+        font-size: 1.2rem;
+      }
     }
+    @include sm {
+      padding: 0.9rem;
+      input {
+        width: 90%;
+      }
+      textarea {
+        width: 90%;
+      }
+    }
+  }
+  @include sm {
+    flex-wrap: wrap;
+    padding: 2px;
   }
 }

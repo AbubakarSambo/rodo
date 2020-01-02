@@ -30,7 +30,7 @@ const Button = styled.div`
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id='Contact' className="contact">
       <div className="col1">
         <h2>Thank you</h2>
         <p>

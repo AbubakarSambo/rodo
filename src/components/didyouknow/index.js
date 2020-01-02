@@ -8,7 +8,7 @@ import cloves from "../../assets/cloves.png";
 
 const Didyouknow = () => {
   return (
-    <div className="didyouknow">
+    <div id="Didyouknow" className="didyouknow">
       <div className="didyouknow__header">
         <h2>Did you know?</h2>
         <h4>Rodo is great for your health</h4>

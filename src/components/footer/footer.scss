@@ -1,0 +1,21 @@
+$rodo-red: #c04355;
+
+
+
+.footer{
+    background-color: $rodo-red;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    flex-direction: column;
+
+    .icons{
+        margin: 0.3rem;
+        min-width: 8rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .copywright{
+        color: #fff;
+    }
+}

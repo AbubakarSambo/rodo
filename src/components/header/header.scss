@@ -9,6 +9,8 @@ $screen-lg-min: 1075px;
 // Large tablets and desktops
 $screen-xl-min: 1200px;
 
+$rodo-red: #c04355;
+
 @mixin sm {
   @media (max-width: #{$screen-sm-min}) {
     @content;
@@ -41,12 +43,13 @@ $screen-xl-min: 1200px;
   justify-content: space-around;
   align-items: center;
   padding: 2rem 15rem;
-
+  
   .header__item {
     color: #fff;
     font-weight: bold;
     font-size: 1.3rem;
     cursor: pointer;
+    text-decoration: none;
   }
   @include lg {
     padding: 2rem 6rem;
@@ -55,6 +58,52 @@ $screen-xl-min: 1200px;
     padding: 2rem 1rem;
   }
   @include sm {
+      position: absolute;
+      right: 0px;
+      display: flex;
+      flex-direction: column;
+      background-color: #4b0e20;
+      top: 51px;
+      height: 90vh;
+      align-items: center;
+      width: 55%;
+      z-index:1;
+      // transform: translateX(100%);
+      .logo{
+        display: none;
+      }
+  }
+}
+.inactive{
+  @include sm {
     display: none;
+
+  }
+}
+.burgercontainer{
+  display: flex;
+  justify-content: space-between;
+  .logo{
+    display: none;
+  }
+  .burger{
+    flex-direction: row-reverse;
+    padding: 0.7rem 0.4rem;
+    cursor: pointer;
+    div{
+      width: 25px;
+      height: 5px;
+      background-color: rgb(226,226,226);
+      margin: 5px;
+    }
+    display: none;
+    @include sm {
+      display: block;
+    }
+  }
+  @include sm {
+    .logo{
+      display: block;
+    }
   }
 }

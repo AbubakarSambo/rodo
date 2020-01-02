@@ -6,6 +6,7 @@ import Benefits from "./components/benefits";
 import Didyouknow from "./components/didyouknow";
 import Howto from "./components/howto";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Didyouknow />
       <Howto />
       <Contact />
+      <Footer />
     </>
   );
 }

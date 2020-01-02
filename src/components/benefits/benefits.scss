@@ -72,6 +72,7 @@ $rodo-red: #c04355;
       &::after {
         margin: 0 -55% 0 0.5em;
       }
+      
     }
     .heading {
       font-family: "Caveat Brush", cursive;
@@ -83,6 +84,12 @@ $rodo-red: #c04355;
     .benefittext {
       font-weight: 400;
       font-size: 1.5rem;
+      @include sm {
+        font-size: 0.8rem;
+      }
+    }
+    @include sm {
+      max-width: 12rem;
     }
   }
   .imageContainer {
@@ -90,8 +97,12 @@ $rodo-red: #c04355;
       max-width: 20rem;
       height: auto;
       @include sm {
-        max-width: 12rem;
+        max-width: 8rem;
       }
+    }
+    @include sm {
+      display: flex;
+      align-items: center;
     }
   }
 }
