@@ -1,27 +1,30 @@
-import React from "react";
-import "./App.scss";
-import Header from "./components/header";
-import Intro from "./components/intro";
-import Benefits from "./components/benefits";
-import Didyouknow from "./components/didyouknow";
-import Howto from "./components/howto";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+import React, { Component } from "react";
+import "./App.css";
+import "./styles/style.scss";
+import "./styles/override.scss";
+import "./styles/story.scss";
+import Main from "./views/1main";
+import Benefits from "./views/2benefits";
+import Didyouknow from "./views/3didyouknow";
+import Hotorcold from "./views/4hotorcold";
+import Contact from "./views/5contact";
+import Footer from "./views/6footer";
+import Copyright from "./views/7copyright";
 
-function App() {
-  return (
-    <>
-      <div className="section-1">
-        <Header />
-        <Intro />
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Main />
+        <Benefits />
+        <Didyouknow />
+        <Hotorcold />
+        <Contact />
+        <Footer />
+        <Copyright />
       </div>
-      <Benefits />
-      <Didyouknow />
-      <Howto />
-      <Contact />
-      <Footer />
-    </>
-  );
+    );
+  }
 }
 
 export default App;
