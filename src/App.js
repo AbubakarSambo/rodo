@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import Header from "./components/header";
 import Intro from "./components/intro";
+import Label from "./components/labels";
 import Benefits from "./components/benefits";
 import Didyouknow from "./components/didyouknow";
 import Howto from "./components/howto";
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Intro />
       </div>
+        <Label />
       <Benefits />
       <Didyouknow />
       <Howto />
